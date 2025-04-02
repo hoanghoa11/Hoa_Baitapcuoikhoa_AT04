@@ -119,6 +119,7 @@ public class WebUI {
         LogUtils.info("Set text " + value + " on element " + by);
     }
 
+
     @Step("Set text {1} on element {0} with timeout {2}")
     public static void setText(By by, String value, int timeOut) {
 //        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(TIMEOUT));
@@ -147,7 +148,9 @@ public class WebUI {
         getWebElement(by).sendKeys(value, key);
         LogUtils.info("Set text: " + value + " on element " + by);
     }
-
+    public static void switchToOtherTab() {
+        DriverManager.switchToOtherTab();
+    }
     public static void setKey(By by, Keys key) {
         waitForElementVisible(by);
         getWebElement(by).sendKeys(key);
