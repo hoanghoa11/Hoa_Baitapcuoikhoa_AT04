@@ -60,7 +60,7 @@ public class ProductPage {
 
     //User Page (View Product)
     By iconXOfPopupWeb = By.xpath("//button[@data-key='website-popup']");
-    By productName = By.xpath("//h1[contains(text(),'Áo phông loại 11')]");
+    By productName = By.xpath("//h1[contains(text(),'Kem nền')]");
     By productPrice = By.xpath("//strong[@class='h2 fw-600 text-primary']");
     By productQuantity = By.xpath("//input[@name='quantity']");
 
@@ -141,13 +141,14 @@ public class ProductPage {
     // Check view product details
     public void userViewProductDetails(String nameProduct) {
         WebUI.switchToOtherTab();
-        //click để tắt popup website
+//        //click để tắt popup website
+        WebUI.sleep(1);
         WebUI.waitForElementClickable(iconXOfPopupWeb);
         WebUI.clickElement(iconXOfPopupWeb);
         sleep(1);
         //so sanh hien thi man product cua nguoi dung voi thong tin minh nhap
-        WebUI.assertEquals(WebUI.getElementText(productName), "Áo phông loại 11", "Product name NOT match");
-        WebUI.assertEquals(WebUI.getElementText(productPrice), "$500,000.00", "Discount price NOT match");
+        WebUI.assertEquals(WebUI.getElementText(productName), "Kem nền", "Product name NOT match");
+        WebUI.assertEquals(WebUI.getElementText(productPrice), "$3,700.00", "Discount price NOT match");
         //   WebUI.assertEquals(WebUI.getElementText(productQuantity),"100", "Quantity NOT match");
     }
 
@@ -230,6 +231,7 @@ public class ProductPage {
         List<WebElement> paginate = DriverManager.getDriver().findElements(By.xpath("//div[@class='aiz-pagination']//ul/li"));
 
         int paginateTotal = paginate.size(); //Lấy ra tổng số page
+        System.out.println("Số page tìm thấy: " + paginateTotal);
         int totalpage = paginateTotal - 2; //-2 nút là next và back
         int total = 0;
         //Duyệt từng dòng
@@ -239,9 +241,10 @@ public class ProductPage {
             total = total + rowTotal;
         } else {
             for (int i = 1; i <= totalpage; i++) {  //i chạy từ dòng 1 đến dòng cuối cùng, column là cột mà mình chỉ định
-
+                WebUI.sleep(1);
                 List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//table//tbody/tr"));
                 int rowTotal = row.size(); //Lấy ra số dòng
+                System.out.println("Số dòng tìm thấy: " + rowTotal);
                 WebElement elementCheck = DriverManager.getDriver().findElement(By.xpath("//table//tbody/tr[" + rowTotal + "]/td[" + column + "]"));
 
                 //Đoạn dưới này để scroll xuống từng dòng , true là trên, false là dưới
@@ -258,5 +261,27 @@ public class ProductPage {
 
         System.out.println("Tổng số sản phẩm hợp lệ: " + total);
     }
+
+//    public void checkSearchTableByColumn(int column, String value) {
+//
+//        //Xác định số dòng của table sau khi search
+//        List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//ul[@class='pagination']"));
+//        WebUI.sleep(1);
+//        int rowTotal = row.size(); //Lấy ra số dòng
+//        System.out.println("Số dòng tìm thấy: " + rowTotal);
+//
+//        //Duyệt từng dòng
+//        for (int i = 1; i <= rowTotal; i++) {
+//            WebElement elementCheck = DriverManager.getDriver().findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + column + "]"));
+//
+//            JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+//            js.executeScript("arguments[0].scrollIntoView(true);", elementCheck);
+//
+//            System.out.print(value + " - ");
+//            System.out.println(elementCheck.getText());
+//            Assert.assertTrue(elementCheck.getText().toUpperCase().contains(value.toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
+//        }
+//
+//    }
 }
 

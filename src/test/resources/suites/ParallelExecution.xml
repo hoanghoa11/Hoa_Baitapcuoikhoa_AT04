@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Demo Parallel Testing By Classes" verbose="1">
+    <test name="Demo Parallel Testing By Classes" parallel="classes">
+        <classes>
+            <class name="Testcase.LoginTest"/>
+            <class name="Testcase.BrandTest"/>
+            <class name="Testcase.CategoryTest"/>
+            <class name="Testcase.ProductTest"/>
+        </classes>
+    </test>
+</suite>

@@ -5,65 +5,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2ac8674-d929-4a48-a3c1-802273b030cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/constants/ConfigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/drivers/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/helpers/CaptureHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/helpers/ExcelHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/helpers/PropertiesHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/helpers/SystemHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/keywords/WebUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/reports/AllureManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/reports/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/reports/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoa/utils/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcase/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/configs.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/SuiteCRM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/SuiteListener.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/SuiteLogin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/logindata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/th (2).jpg" afterDir="false" />
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcase/BrandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcase/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcase/DashBoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcase/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/Flow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentreport/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport/extentreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hoa/constants/ConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoa/constants/ConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hoa/drivers/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoa/drivers/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/BrandPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/BrandPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/CategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/CategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/SuiteCRM.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/SuiteListener.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/SuiteLogin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/logindata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/logindata.xlsx" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/ParallelExecution.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentreport/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport/extentreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testOpenAddProductPage_05-04-2025 22-26-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testOpenBrandPage_05-04-2025 22-26-37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testOpenCategoryPage_05-04-2025 22-26-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcase/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcase/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" afterDir="false" />
+>>>>>>> 41b5edd ( Search Product check Table (cột tên))
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2vB3dlxF6a8TTe7TfmHrUxnPH1U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BrandTest.testAddBrand_Success.executor": "Run",
+    "TestNG.BrandTest.testDeleteBrand_Success.executor": "Run",
+    "TestNG.BrandTest.testEditBrand_Success.executor": "Run",
+    "TestNG.CategoryTest.executor": "Run",
+    "TestNG.CategoryTest.testAddCategory_Success.executor": "Run",
+    "TestNG.CategoryTest.testDeleteCategory_Success.executor": "Run",
+    "TestNG.CategoryTest.testEditCategory_Success.executor": "Run",
+    "TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml.executor": "Run",
+    "TestNG.DashBoardTest.executor": "Run",
     "TestNG.LoginTest.testLoginCRM_LoginSuccess.executor": "Run",
-    "git-widget-placeholder": "master",
+    "TestNG.ProductTest.testAddNewProduct_Success.executor": "Run",
+    "TestNG.ProductTest.testDeleteProduct_Success.executor": "Run",
+    "TestNG.ProductTest.testEditProduct_Success.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources",
-    "onboarding.tips.debug.path": "D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/main/java/com/hoa/Main.java"
+    "last_opened_file_path": "D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites",
+    "onboarding.tips.debug.path": "D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/main/java/com/hoa/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.BrandTest.testAddBrand_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.testDeleteBrand_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.testEditBrand_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.testAddCategory_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.testDeleteCategory_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.testEditCategory_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DashBoardTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testLoginCRM_LoginSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testAddNewProduct_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testCheckDataOnProductTable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testDeleteProduct_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testEditProduct_Success.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/main/java/com/hoa/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+>>>>>>> 41b5edd ( Search Product check Table (cột tên))
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\test\resources\suites" />
       <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\test\resources" />
       <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\test\java" />
       <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\main\java\com\hoa" />
@@ -73,8 +131,33 @@
       <recent name="Testcase" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="LoginTest.testLoginCRM_LoginSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
+  <component name="RunManager" selected="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml">
+    <configuration name="BrandTest.testDeleteBrand_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml">
+    <configuration name="D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/Flow.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/ParallelExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testCheckDataOnProductTable" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 41b5edd ( Search Product check Table (cột tên))
       <module name="Hoa_Baitapcuoikhoa_AT04" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +166,77 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Testcase" />
-      <option name="MAIN_CLASS_NAME" value="Testcase.LoginTest" />
-      <option name="METHOD_NAME" value="testLoginCRM_LoginSuccess" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="Testcase.BrandTest" />
+      <option name="METHOD_NAME" value="testDeleteBrand_Success" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/Flow.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testAddNewProduct_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcase" />
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testAddNewProduct_Success" />
+=======
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testCheckDataOnProductTable" />
+>>>>>>> 41b5edd ( Search Product check Table (cột tên))
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testDeleteProduct_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcase" />
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testDeleteProduct_Success" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testEditProduct_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcase" />
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testEditProduct_Success" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,7 +246,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.testLoginCRM_LoginSuccess" />
+<<<<<<< HEAD
+        <item itemvalue="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml" />
+        <item itemvalue="TestNG.ProductTest.testEditProduct_Success" />
+        <item itemvalue="TestNG.ProductTest.testDeleteProduct_Success" />
+        <item itemvalue="TestNG.ProductTest.testAddNewProduct_Success" />
+        <item itemvalue="TestNG.BrandTest.testDeleteBrand_Success" />
+=======
+        <item itemvalue="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml" />
+        <item itemvalue="TestNG.ProductTest.testCheckDataOnProductTable" />
+        <item itemvalue="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml" />
+        <item itemvalue="TestNG.ProductTest.testEditProduct_Success" />
+        <item itemvalue="TestNG.ProductTest.testDeleteProduct_Success" />
+>>>>>>> 41b5edd ( Search Product check Table (cột tên))
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +280,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hoa/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Testcase/ProductTest.java</url>
+          <line>75</line>
+          <properties class="Testcase.ProductTest" method="testDeleteProduct_Success">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

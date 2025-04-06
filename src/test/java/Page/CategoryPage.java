@@ -24,7 +24,7 @@ public class CategoryPage {
     private By dropdownTypeCategory = By.xpath("(//div[@class='col-md-9'])[4]//div//button");
     private By selectTypeCateGory = By.xpath("//li[@class='selected active']");
     private By chooseBannerImage = By.xpath("(//label[@for='signinSrEmail'])[1]/following-sibling::div//div[@class='input-group']");
-    private By selectImage1 = By.xpath("//div[@title='pexels-photo-12334699.jpeg");
+    private By selectImage1 = By.xpath("//div[@title='pexels-photo-12334699.jpeg']");
     private By buttonAddFileImage =By.xpath("//button[normalize-space()='Add Files']");
     private By inputMetaTitle = By.xpath("//input[@placeholder='Meta Title']");
     private By inputMetaDescription = By.xpath("//textarea[@name='meta_description']");
@@ -59,6 +59,7 @@ public class CategoryPage {
     }
 
     public void clickButtonDelete() {
+        WebUI.waitForElementVisible(firstIconDeleteCategory);
         WebUI.clickElement(firstIconDeleteCategory);
         WebUI.sleep(1);
         WebUI.clickElement(selectDeleteCategory);
@@ -84,7 +85,9 @@ public class CategoryPage {
         WebUI.clickElement(selectTypeCateGory);
 
         WebUI.clickElement(chooseBannerImage);
+//        WebUI.sleep(2);
         WebUI.waitForElementVisible(selectImage1);
+
         WebUI.clickElement(selectImage1);
         WebUI.clickElement(buttonAddFileImage);
 

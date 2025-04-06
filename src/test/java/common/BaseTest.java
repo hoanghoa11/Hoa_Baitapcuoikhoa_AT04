@@ -24,6 +24,14 @@ public class BaseTest {
 
         DriverManager.setDriver(driver);
     }
+//    @BeforeMethod
+//    @Parameters({"browser"})
+//    public void createDriver(@Optional("chrome") String browserName) {
+//        PropertiesHelper.loadAllFiles();
+//        WebDriver driver = setBrowser(browserName);  // ✅ dùng biến, không dùng chuỗi
+//        DriverManager.setDriver(driver);
+//    }
+
 
     public WebDriver setBrowser(String browserName) {
         WebDriver driver;

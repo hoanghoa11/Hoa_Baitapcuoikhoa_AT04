@@ -30,17 +30,20 @@ public class DriverManager {
 
     }
 
+
     public static void switchToOtherTab() {
-        for (String windowHandle : allWindowHandles) {
-            if (!windowHandle.equals(originalWindowHandle)) {
-                // Chuyển qua tab mới
+        String currentWindow = driver.get().getWindowHandle();
+        Set<String> handles = driver.get().getWindowHandles();
+
+        for (String windowHandle : handles) {
+            if (!windowHandle.equals(currentWindow)) {
                 driver.get().switchTo().window(windowHandle);
-                System.out.println("Switch from " + originalWindowHandle + " to " + windowHandle);
+                System.out.println("Switched from " + currentWindow + " to " + windowHandle);
                 break;
             }
         }
-
     }
+
     public static void quit() {
         DriverManager.driver.get().quit();
         driver.remove();
