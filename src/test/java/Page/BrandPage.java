@@ -29,7 +29,7 @@ public class BrandPage {
     private By menuDashBoard = By.xpath("//span[normalize-space()='Dashboard']");
 
 
-    private By selectImage1 = By.xpath("//div[@title='pexels-photo-12334699.jpeg");
+    private By selectImage1 = By.xpath("//div[@title='pexels-photo-12334699.jpeg']");
     private By buttonAddFileImage =By.xpath("//button[normalize-space()='Add Files']");
     public  void clickMenuDashboard(){
         WebUI.clickElement(menuDashBoard);
@@ -46,6 +46,7 @@ public class BrandPage {
         WebUI.setText(inputNameBrand, brandName);
 
         WebUI.clickElement(chooseImageLogo);
+        WebUI.sleep(2);
         WebUI.clickElement(selectImage1);
         WebUI.clickElement(buttonAddFileImage);
 
@@ -81,6 +82,7 @@ public class BrandPage {
         WebUI.setText(inputNameBrand, brandName);
 
         WebUI.clickElement(editImageLogo);
+        WebUI.sleep(2);
         WebUI.clickElement(selectImage1);
         WebUI.clickElement(buttonAddFileImage);
         WebUI.sleep(2);

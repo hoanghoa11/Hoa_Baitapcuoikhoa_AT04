@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 public class LoginPage {
 
-   private String url = "https://cms.anhtester.com/login";
+
 
     //khai bao tat ca cac object(element) tren page nay
     //Thuoc kieu doi tuong By(thuoc cua Selenium)
@@ -31,13 +31,15 @@ public class LoginPage {
         WebUI.clickElement(buttonLogin);
     }
 
-    public void loginCMS(String email, String password) {
-        WebUI.openURL(url);
+    public DashboardPage loginCMS(String email, String password) { //thay void = trang liên kểt
+        WebUI.openURL(ConfigData.URL);
         WebUI.waitForPageLoaded();
+        System.out.println("Navigate to url: " + ConfigData.URL);
         setEmailInput(email);
         setPasswordInput(password);
         clickButtonLogin();
         WebUI.waitForPageLoaded();
+        return new DashboardPage();
     }
 
     public void verifyLoginSuccess() {

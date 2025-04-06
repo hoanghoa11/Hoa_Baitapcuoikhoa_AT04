@@ -60,7 +60,7 @@ public class ProductPage {
 
     //User Page (View Product)
     By iconXOfPopupWeb = By.xpath("//button[@data-key='website-popup']");
-    By productName = By.xpath("//h1[contains(text(),'Áo phông loại 11')]");
+    By productName = By.xpath("//h1[contains(text(),'Kem nền')]");
     By productPrice = By.xpath("//strong[@class='h2 fw-600 text-primary']");
     By productQuantity = By.xpath("//input[@name='quantity']");
 
@@ -141,13 +141,14 @@ public class ProductPage {
     // Check view product details
     public void userViewProductDetails(String nameProduct) {
         WebUI.switchToOtherTab();
-        //click để tắt popup website
+//        //click để tắt popup website
+        WebUI.sleep(1);
         WebUI.waitForElementClickable(iconXOfPopupWeb);
         WebUI.clickElement(iconXOfPopupWeb);
         sleep(1);
         //so sanh hien thi man product cua nguoi dung voi thong tin minh nhap
-        WebUI.assertEquals(WebUI.getElementText(productName), "Áo phông loại 11", "Product name NOT match");
-        WebUI.assertEquals(WebUI.getElementText(productPrice), "$500,000.00", "Discount price NOT match");
+        WebUI.assertEquals(WebUI.getElementText(productName), "Kem nền", "Product name NOT match");
+        WebUI.assertEquals(WebUI.getElementText(productPrice), "$3,700.00", "Discount price NOT match");
         //   WebUI.assertEquals(WebUI.getElementText(productQuantity),"100", "Quantity NOT match");
     }
 
