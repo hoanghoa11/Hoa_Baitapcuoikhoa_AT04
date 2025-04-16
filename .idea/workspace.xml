@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2ac8674-d929-4a48-a3c1-802273b030cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vB3dlxF6a8TTe7TfmHrUxnPH1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.BrandTest.testAddBrand_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.testDeleteBrand_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.testEditBrand_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.testAddCategory_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.testDeleteCategory_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CategoryTest.testEditCategory_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DashBoardTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testLoginCRM_LoginSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testAddNewProduct_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testCheckDataOnProductTable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testDeleteProduct_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testEditProduct_Success.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/main/java/com/hoa/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\test\resources\suites" />
+      <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\test\resources" />
+      <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\test\java" />
+      <recent name="D:\Tester\Automation\Hoa_Baitapcuoikhoa_AT04\src\main\java\com\hoa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Page" />
+      <recent name="Testcase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml">
+    <configuration name="D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/Flow.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/ParallelExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testCheckDataOnProductTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcase" />
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testCheckDataOnProductTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testDeleteProduct_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcase" />
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testDeleteProduct_Success" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testEditProduct_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hoa_Baitapcuoikhoa_AT04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcase" />
+      <option name="MAIN_CLASS_NAME" value="Testcase.ProductTest" />
+      <option name="METHOD_NAME" value="testEditProduct_Success" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/ParallelExecution.xml" />
+        <item itemvalue="TestNG.ProductTest.testCheckDataOnProductTable" />
+        <item itemvalue="TestNG.D:/Tester/Automation/Hoa_Baitapcuoikhoa_AT04/src/test/resources/suites/Flow.xml" />
+        <item itemvalue="TestNG.ProductTest.testEditProduct_Success" />
+        <item itemvalue="TestNG.ProductTest.testDeleteProduct_Success" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2ac8674-d929-4a48-a3c1-802273b030cd" name="Changes" comment="" />
+      <created>1743604732806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743604732806</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hoa/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Testcase/ProductTest.java</url>
+          <line>75</line>
+          <properties class="Testcase.ProductTest" method="testDeleteProduct_Success">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
