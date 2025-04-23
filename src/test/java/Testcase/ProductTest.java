@@ -16,7 +16,7 @@ public class ProductTest extends BaseTest {
     @Test
     public void testAddNewProduct_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Product");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Product");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         loginPage.verifyLoginSuccess();
@@ -47,7 +47,7 @@ public class ProductTest extends BaseTest {
     @Test
     public void testEditProduct_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Product");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Product");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         loginPage.verifyLoginSuccess();
@@ -75,7 +75,7 @@ public class ProductTest extends BaseTest {
     @Test
     public void testDeleteProduct_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Product");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Product");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         loginPage.verifyLoginSuccess();

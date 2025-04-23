@@ -19,7 +19,7 @@ public class BrandTest extends BaseTest {
     @Test(priority = 1)
     public void testAddBrand_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Brand");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Brand");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         brandPage = dashboardPage.clickMenuBrand();
@@ -35,7 +35,7 @@ public class BrandTest extends BaseTest {
     @Test(priority = 2)
     public void testEditBrand_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Brand");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Brand");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         brandPage = dashboardPage.clickMenuBrand();
@@ -58,7 +58,7 @@ public class BrandTest extends BaseTest {
     @Test(priority = 3)
     public void testDeleteBrand_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Brand");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Brand");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
 

@@ -18,7 +18,7 @@ public class CategoryTest extends BaseTest {
     @Test
     public void testAddCategory_Success() {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Category");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Category");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         categoryPage = dashboardPage.clickMenuCategory();
@@ -38,7 +38,7 @@ public class CategoryTest extends BaseTest {
     @Test
     public void testEditCategory_Success(){
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Category");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Category");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         categoryPage= dashboardPage.clickMenuCategory();
@@ -58,7 +58,7 @@ public class CategoryTest extends BaseTest {
     @Test
     public void testDeleteCategory_Success(){
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/testdata/logindata.xlsx", "Category");
+        excelHelper.setExcelFile("src/test/resources/testdata/data.xlsx", "Category");
         loginPage = new LoginPage();
         dashboardPage = loginPage.loginCMS(ConfigData.EMAIL, ConfigData.PASSWORD);
         categoryPage= dashboardPage.clickMenuCategory();

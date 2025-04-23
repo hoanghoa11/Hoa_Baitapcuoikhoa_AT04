@@ -24,13 +24,6 @@ public class BaseTest {
 
         DriverManager.setDriver(driver);
     }
-//    @BeforeMethod
-//    @Parameters({"browser"})
-//    public void createDriver(@Optional("chrome") String browserName) {
-//        PropertiesHelper.loadAllFiles();
-//        WebDriver driver = setBrowser(browserName);  // ✅ dùng biến, không dùng chuỗi
-//        DriverManager.setDriver(driver);
-//    }
 
 
     public WebDriver setBrowser(String browserName) {
@@ -39,7 +32,12 @@ public class BaseTest {
             case "chrome":
                 ChromeOptions options = new ChromeOptions();
                 //set chrome as Headless
-                options.addArguments("--headless");
+                PropertiesHelper.loadAllFiles();
+                boolean isHeadless = Boolean.parseBoolean(PropertiesHelper.getValue("HEADLESS"));
+
+                if (isHeadless) {
+                    options.addArguments("--headless");
+                }
                 options.addArguments("--disable-notifications");
                 driver = new ChromeDriver(options);
                 break;

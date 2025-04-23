@@ -1,6 +1,7 @@
 package listeners;
 
 import com.aventstack.extentreports.Status;
+import com.hoa.helpers.CaptureHelper;
 import com.hoa.helpers.PropertiesHelper;
 import com.hoa.reports.AllureManager;
 import com.hoa.reports.ExtentReportManager;
@@ -55,6 +56,10 @@ public class TestListener implements ITestListener {
         LogUtils.error("Test case " + result.getName() + " is failed.");
         //Screenshot khi fail
         //CaptureHelper.captureScreenshot(result.getName());
+
+        if (PropertiesHelper.getValue("SCREENSHOT_FAIL").equals("true")) {
+            CaptureHelper.captureScreenshot(result.getName());
+        }
         LogUtils.error(result.getThrowable().toString());
 
         //Extent Report
